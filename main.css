@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: url('/Assets/dark-stairs4.jpg');
+    background-image: url('images/dark-stairs4.jpg');
     background-repeat: repeat-y;
     max-width: fit-content;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
