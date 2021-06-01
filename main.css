@@ -298,6 +298,14 @@ body {
     border-radius: 7%;
   }
 
+  #badge-modal-all {
+    background-color: steelblue;
+  }
+
+  .container1 {
+    padding: 2px 2px 2px 2px;
+  }
+
   
 
 
