@@ -172,6 +172,7 @@ body {
   } 
 
   #bio-h2 {
+    background-color: steelblue;
     font-size: large;
     padding: 0 auto;
     margin:auto;
@@ -179,7 +180,11 @@ body {
   }
 
   #modal-content {
-    background-color: slategrey;
+    background-color: steelblue;
+  }
+
+  .modal-header {
+    background-color: steelblue;
   }
 
   #typing-text {
@@ -192,8 +197,8 @@ body {
   }
 
   #modal-title {
-    background-color: slategray;
-    color: black;
+    background-color: steelblue;
+    color: white;
     font-weight: 60;
     letter-spacing: 30px;
     text-transform: uppercase;
@@ -201,15 +206,15 @@ body {
   }
 
   #contant-modal-title {
-    color: black;
+    color: blue;
     font-weight: 50;
     text-transform: uppercase;
     letter-spacing: 30px;
   }
 
   #modal-close {
-    background-color: slategray;
-    color: aqua;
+    background-color: rgb(149, 187, 218);
+    color: darkred;
     border: none;
   }
   
@@ -231,26 +236,66 @@ body {
     }
   }
 
-  #bio {
-    background-color: slategray;
+  #bio-modal-all {
+    background-color: steelblue;
+  }
+
+  #bio-p3 {
+    background-color: rgb(149, 187, 218);
     font-size: 14px;
     color: black;
   }
 
+  #bio {
+    background-color: black;
+  }
+
   #bio-p1 {
+    background-color: rgb(149, 187, 218);
     font-size: 26px;
-    color: black;
+    color:blue;
   }
 
   #bio-p2 {
+   background-color:  rgb(149, 187, 218);
     font-size: 20px;
-    color: black;
+    color: blue;
+  }
+
+  @keyframes type {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 0;
+    }
+    100% {
+      width: 100;
+    }
   }
 
   .contact-btn btn-one {
     height: 40px;
     width: 60px;
     text-decoration: none;
+  }
+
+  .modal{
+    background-color: black;
+  }
+  .col { 
+    background-color: rgb(149, 187, 218);
+  }
+
+  .form-group submit {
+    border: 4px;
+    border-radius: 7%;
   }
 
   
